@@ -1,6 +1,6 @@
-clone:
-  git:
-    image: plugins/git
+# clone:
+#   git:
+#     image: plugins/git
 pipeline:
   frontend: 
     image: node:8
