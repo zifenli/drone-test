@@ -1,0 +1,9 @@
+clone:
+  git:
+    image: plugins/git
+pipeline:
+  froneend: 
+    image: node:LTS
+    commands: 
+      - npm install
+      - npm run start
