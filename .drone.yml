@@ -2,8 +2,8 @@ clone:
   git:
     image: plugins/git
 pipeline:
-  froneend: 
-    image: node:LTS
+  frontend: 
+    image: node:8
     commands: 
       - npm install
       - npm run start
